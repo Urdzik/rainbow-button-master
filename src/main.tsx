@@ -22,8 +22,8 @@ import {
 } from "@tanstack/react-query";
 
 const config = getDefaultConfig({
-    appName: 'My RainbowKit App',
-    projectId: 'YOUR_PROJECT_ID',
+    appName: 'Viacheslav Urdzik',
+    projectId: '4e4f48fe0c3401771e3adabce109ecf5',
     chains: [mainnet, polygon, optimism, arbitrum, base, zora],
     ssr: true
 });
@@ -31,14 +31,14 @@ const config = getDefaultConfig({
 const queryClient = new QueryClient();
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-      <WagmiProvider config={config}>
-          <QueryClientProvider client={queryClient}>
-              <RainbowKitProvider>
-                  <ConnectButton />
+    <React.StrictMode>
+        <WagmiProvider config={config}>
+            <QueryClientProvider client={queryClient}>
+                <RainbowKitProvider>
+                    <ConnectButton />
 
-              </RainbowKitProvider>
-          </QueryClientProvider>
-      </WagmiProvider>
-  </React.StrictMode>,
+                </RainbowKitProvider>
+            </QueryClientProvider>
+        </WagmiProvider>
+    </React.StrictMode>,
 )
