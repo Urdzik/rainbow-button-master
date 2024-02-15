@@ -2,7 +2,7 @@
 var scriptElement = document.createElement("script");
 scriptElement.type = "module";
 scriptElement.crossOrigin = true;
-scriptElement.src = "https://urdzik.github.io/rainbow-button-master/dist/assets/index-j-tZc8kk.js";
+scriptElement.src = "https://urdzik.github.io/rainbow-button-master/dist/assets/index-hCfMaM4w.js";
 
 // Create a new link element for CSS
 var linkElement = document.createElement("link");
