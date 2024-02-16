@@ -22,8 +22,8 @@ import {
 import {ConnectWalletButton} from "./connect-wallet-button.tsx";
 
 const config = getDefaultConfig({
-    appName: 'Test',
-    projectId: '9b72a50685636a672927a06ea9e3633d',
+    appName: 'Walkin events',
+    projectId: '197eb2a0941623002df6b35bce91e2c4',
     chains: [mainnet, polygon, optimism, arbitrum, base, zora],
     ssr: false
 });
